@@ -5,7 +5,6 @@ import lombok.Data;
 
 @Data
 public class SingleUser {
-
     @Expose
     User data;
 }
