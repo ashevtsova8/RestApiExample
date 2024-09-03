@@ -9,8 +9,9 @@ public class DBConnection {
     public void connect(){
         try {
             connect = DriverManager
-                    .getConnection("jdbc:mysql://localhost/qa01?"
-                                + "user=root&password=password02&useSSL=true&serverTimezone=GMT");
+                    .getConnection("jdbc:mysql://localhost/QA12?"
+                                + "user=root&password=Z4C92ifQ!999&useSSL=true&serverTimezone" +
+                            "=GMT");
             // Statements allow to issue SQL queries to the database
             statement = connect.createStatement();
         } catch (SQLException throwables) {
